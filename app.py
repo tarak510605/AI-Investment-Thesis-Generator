@@ -9,7 +9,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 st.set_page_config(page_title="AI Thesis Generator (Local)", layout="wide")
 st.title("📈 AI Investment Thesis Generator")
-st.write("Runs fully offline. No keys. No external API.")
+
 
 def extract_text_from_pdf(uploaded_file):
     text = ""
